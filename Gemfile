@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-ruby '2.1.4'
+ruby '2.1.4git commit '
 gem 'rails', '4.2.1'
 
 # Use SCSS for stylesheets
@@ -51,6 +51,6 @@ end
 
 group :production do
   gem 'pg'
-  gem 'rails_12factorgit '
+  gem 'rails_12factor'
 end
 
