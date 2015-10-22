@@ -2,6 +2,18 @@
 
 This README would normally document whatever steps are necessary to get the
 
+testing specs for recipes -
+name :string
+summary :text
+description :text
+- name must be present
+- name must be > 5 and less < 150
+- summary must be present
+- summary must be between 10 and 150 characters
+- description must be present
+- description must be between 20 and 500 characters
+- chef_id must be present
+
 Things you may want to cover:
 
 * Ruby version
